@@ -1,0 +1,14 @@
+{
+  "item.magicsword.raw_magisches": "Raw Magisches",
+  "item.magicsword.magisches_nugget": "Magisches Nugget",
+
+  "block.magicsword.magisches_ore_block": "Magisches Ore Block",
+  "block.magicsword.deepslate_magisches_ore_block": "Deepslate Magisches Ore Block",
+
+  "itemGroup.magicsword.magicsword": "Magisches Sword Material",
+
+  "item.magicsword.raw_magisches.tooltip": "An §d§lone million years ago",
+  "item.magicsword.raw_magisches.tooltip.line_2": "§eancient ore §cthat almost destroying this earth.",
+  "item.magicsword.raw_magisches.tooltip.non_shift": "Press §b§lShift §ffor descriptions."
+
+}
