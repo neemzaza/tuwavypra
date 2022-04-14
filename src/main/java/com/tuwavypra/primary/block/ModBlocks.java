@@ -25,6 +25,10 @@ public class ModBlocks {
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(7f).requiresTool(),
                     UniformIntProvider.create(2, 6)), ModItemGroup.MAGICSWORD);
 
+    public static final Block ALCHEMY_TABLE = registerBlock("alchemy_table",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool(),
+                    UniformIntProvider.create(2, 6)), ModItemGroup.MAGICSWORD);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(PrimaryMod.MOD_ID, name), block);
