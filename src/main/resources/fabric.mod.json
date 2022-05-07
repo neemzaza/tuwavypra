@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.tuwavypra.primary.PrimaryMod"
+    ],
+    "client": [
+      "com.tuwavypra.primary.PrimaryClientMod"
     ]
   },
   "mixins": [

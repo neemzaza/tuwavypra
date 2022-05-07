@@ -1,6 +1,7 @@
 package com.tuwavypra.primary;
 
 import com.tuwavypra.primary.block.ModBlocks;
+import com.tuwavypra.primary.block.entity.ModBlockEntities;
 import com.tuwavypra.primary.item.ModItems;
 import com.tuwavypra.primary.ores.ModOreGen;
 import net.fabricmc.api.ModInitializer;
@@ -22,7 +23,8 @@ public class PrimaryMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
 		ModOreGen.registerOreGen();
+
+		ModBlockEntities.registerAllBlockEntities();
 	}
 }

@@ -1,6 +1,7 @@
 package com.tuwavypra.primary.block;
 
 import com.tuwavypra.primary.PrimaryMod;
+import com.tuwavypra.primary.block.custom.AlchemyTableBlock;
 import com.tuwavypra.primary.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -26,8 +27,7 @@ public class ModBlocks {
                     UniformIntProvider.create(2, 6)), ModItemGroup.MAGICSWORD);
 
     public static final Block ALCHEMY_TABLE = registerBlock("alchemy_table",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool(),
-                    UniformIntProvider.create(2, 6)), ModItemGroup.MAGICSWORD);
+            new AlchemyTableBlock(FabricBlockSettings.of(Material.STONE).nonOpaque()), ModItemGroup.MAGICSWORD);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
